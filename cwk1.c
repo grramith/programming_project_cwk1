@@ -29,7 +29,7 @@ typedef struct {
     int playerCol;
 } Maze;
 
-// Function in order to load maze file
+// Function in order to allow the maze file to load
 Maze LoadMazeFile(const char *filename);
 
 // Function for player movement
